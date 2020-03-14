@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BinarySearchTree
 {
-    class Node<T>
+    public class Node<T> where T: IComparable
     {
         public T Value { get; set; }
 
